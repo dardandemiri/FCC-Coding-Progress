@@ -1,0 +1,31 @@
+body{
+  margin-top:60px;
+}
+.image{
+  border-radius:1%;
+  width:100%;
+}
+
+.firstR{
+  padding-top:35px;
+  margin-top:35px;
+  border-top:1px white solid;
+}
+
+.colorA{
+  background-color:red;
+}
+
+.heCreated{
+  border-left:1px white solid;
+}
+
+#title{
+  margin-top:-35px;
+}
+
+.neMes{
+  display: inline-block;
+  text-align:left;
+  
+}
