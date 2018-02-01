@@ -1,3 +1,86 @@
-.skills{
-	height: 320px;	
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif !important;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* header
+======================*/
+
+header{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 1em;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1em;
+}
+
+nav a{
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .83rem;
+  color: #FFF;
+}
+
+nav a:hover,
+nav a:focus{
+  color: #DDD;
+  text-decoration: none;
+}
+
+.home-hero{
+  background-image: url(../img/hero-bg.jpg);
+  padding: 10em 0;
+  height: 100vh;
+}
+
+h1{
+  color: #fff;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title span{
+  font-weight: 300;
+}
+
+.button{
+  border: 2px solid #00ff6c;
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 9px;
+  color: #00ff6c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:active{
+  background-color: #00ff6c;
+  color: #232323;
 }
