@@ -98,3 +98,110 @@
 //
 // Local Scope and Functions Complete
 //
+// Global vs. Local Scope in Functions Complete
+//
+// Return a Value from a Function with Return Complete
+//
+// Assignment with a Returned Value Complete
+//
+// Stand in Line Complete
+//
+// Understanding Boolean Values Complete
+//
+// Use Conditional Logic with If Statements Complete
+//
+// Comparison with the Equality Operator Complete
+//
+// Comparison with the Strict Equality Operator Complete
+//
+// Comparison with the Inequality Operator Complete
+//
+// Comparison with the Strict Inequality Operator Complete
+//
+// Comparison with the Greater Than Operator Complete
+//
+// Comparison with the Greater Than Or Equal To Operator Complete
+//
+// Comparison with the Less Than Operator Complete
+//
+// Comparison with the Less Than Or Equal To Operator Complete
+//
+// Comparisons with the Logical And Operator Complete
+//
+// Comparisons with the Logical Or Operator Complete
+//
+// Introducing Else Statements Complete
+//
+// Introducing Else If Statements Complete
+//
+// Logical Order in If Else Statements Complete
+//
+// Chaining If Else Statements Complete
+//
+// Golf Code Complete
+//
+// Selecting from many options with Switch Statements Complete
+//
+// Adding a default option in Switch statements Complete
+//
+// Multiple Identical Options in Switch Statements Complete
+//
+// Replacing If Else Chains with Switch Complete
+//
+// Returning Boolean Values from Functions Complete
+//
+// Return Early Pattern for Functions Complete
+//
+// Counting Cards Complete
+//
+// Build JavaScript Objects Complete
+//
+// Accessing Objects Properties with the Dot Operator Complete
+//
+// Accessing Objects Properties with Bracket Notation Complete
+//
+// Accessing Objects Properties with Variables Complete
+//
+// Updating Object Properties Complete
+//
+// Add New Properties to a JavaScript Object Complete
+//
+// Delete Properties from a JavaScript Object Complete
+//
+// Using Objects for Lookups Complete
+//
+// Testing Objects for Properties Complete
+//
+// Manipulating Complex Objects Complete
+//
+// Accessing Nested Objects Complete
+//
+// Accessing Nested Arrays Complete
+//
+// Iterate with JavaScript For Loops Complete
+//
+// Iterate Odd Numbers With a For Loop Complete
+//
+// Count Backwards With a For Loop Complete
+//
+// Iterate Through an Array with a For Loop Complete
+//
+// Nesting For Loops Complete
+//
+// Iterate with JavaScript While Loops Complete
+//
+// Profile Lookup Complete
+//
+// Generate Random Fractions with JavaScript Complete
+//
+// Generate Random Whole Numbers with JavaScript Complete
+//
+// Generate Random Whole Numbers within a Range Complete
+//
+// Sift through Text with Regular Expressions Complete
+//
+// Find Numbers with Regular Expressions Complete
+//
+// Find Whitespace with Regular Expressions Complete
+//
+// Invert Regular Expression Matches with JavaScript
