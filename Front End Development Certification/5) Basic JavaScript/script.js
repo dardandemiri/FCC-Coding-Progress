@@ -207,4 +207,25 @@
 // Invert Regular Expression Matches with JavaScript
 
 
-//Really great progres today I am at the 200 points in FCC 
+// Really great progres today I am at the 200 points in FCC
+
+switch (expression) {
+  case expression:
+    break;
+  default:
+}
+
+if (true) {
+}else if (true) {
+
+}else {
+  
+}
+
+
+function functionName() {
+}
+
+while (true) {
+
+}
