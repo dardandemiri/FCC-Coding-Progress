@@ -119,3 +119,34 @@ function confirmEnding(str, target) {
 }
 
 confirmEnding("Bastian", "n");
+
+
+//Repeat a string repeat a string
+function repeatStringNumTimes(str, num) {
+  // repeat after me
+  var resultStr = "";
+  for(var i = 0; i < num; i++){
+    resultStr += str;
+  }
+  return resultStr;
+}
+
+repeatStringNumTimes("*", 3);
+
+
+
+//Truncate a string
+function truncateString(str, num) {
+  // Clear out that junk in your trunk
+  if(num<=3){
+    return str.slice(0,num) + "...";
+  }else if(str.length > num){
+    return str.slice(0,num-3) + "...";
+  }
+
+  return str.slice(0,num);
+
+
+}
+              //A-tisket...".
+truncateString("A-", 1);
