@@ -150,3 +150,29 @@ function truncateString(str, num) {
 }
               //A-tisket...".
 truncateString("A-", 1);
+
+
+
+//Chunky Monkey ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+function chunkArrayInGroups(arr, size) {
+  // Break it up.
+  var finalArr = [];
+
+  for(var i = 0; i < arr.length; i += size){
+    finalArr.push(arr.slice(i, i+size));
+  }
+  return finalArr;
+}
+
+chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3);
+
+
+
+//Slasher Flick
+function slasher(arr, howMany) {
+  // it doesn't always pay to be first
+  return arr.slice(howMany);
+}
+
+slasher([1, 2, 3, 4, 5, 6, 7], 3);
