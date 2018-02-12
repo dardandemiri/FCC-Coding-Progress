@@ -176,3 +176,20 @@ function slasher(arr, howMany) {
 }
 
 slasher([1, 2, 3, 4, 5, 6, 7], 3);
+
+
+
+
+// Mutations 
+function mutation(arr) {
+  var test = arr[1].toLowerCase();
+  var target = arr[0].toLowerCase();
+
+  for (var i=0; i < test.length; i++) {
+    if ( target.indexOf(test[i]) === -1)
+      return false;
+  }
+  return true;
+ }
+
+mutation(["hello", "hey"]);
