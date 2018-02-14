@@ -1,0 +1,99 @@
+body{
+  box-sizing: border-box;
+}
+
+
+.header{
+  background-image: url("../img/5.jpg");
+  height: 100vh;
+  background-size: cover;
+
+  background-position:center;
+}
+
+.icon-square{
+  padding: 100px 0 70px 0;
+  margin-top: 5vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.icon-square:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  padding: 100px 0 20px 0;
+}
+
+
+.icon-square:hover > .onHover{
+  font-size:6em;
+  transition: 0.4s ease;
+
+}
+.content{
+  padding-top: 30px;
+}
+
+
+h4{
+  margin-top: 40px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.inputArea{
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  text-align: center;
+}
+
+.searchArea{
+  margin-top: 20px;
+}
+
+.results{
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 45px 20px 45px 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.temp{
+  display: inline-block;
+}
+.tempSwitch{
+  display: inline-block;
+  color: inherit;
+  width: 25px;
+  border: none;
+  text-align: center;
+
+}
+.tempSwitch:focus{
+  outline: none;
+  border: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+.tempSwitch:hover{
+  border: none;
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+
+.icon{
+  padding: 33px 30px 15px 80px;
+}
