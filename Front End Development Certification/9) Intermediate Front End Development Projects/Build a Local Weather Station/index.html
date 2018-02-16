@@ -15,6 +15,7 @@
 
 </head>
 
+
 <body>
   <div class="header container-fluid">
     <div class="container">
@@ -25,10 +26,12 @@
           <h4>Weather in my Location</h4>
         </div>
 
-        <div class="icon-square search col-sm-4">
+        <a href="#searchIn" class="icon-square search col-sm-4">
+        <div >
           <i class="fas onHover fa-search fa-5x"></i>
           <h4>Search for Weather</h4>
         </div>
+          </a>
 
         <div class="icon-square randomWeather col-sm-4">
           <i class="fas onHover fa-map fa-5x"></i>
@@ -38,36 +41,50 @@
       </div>
 
       <div class="row searchArea">
-        <div class="col-sm-3 col-sm-3-offset"> </div>
-        <input class="col-sm-4 inputArea" type="text" name="city" placeholder="Write a city you want to know his weather. Example: Zurich" value="">
-        <button type="button" name="button" class="btn btn-default col-sm-2">Search</button>
+        <div class="col-sm-2 col-sm-2-offset"> </div>
+        <input id="searchIn" class="col-sm-6 inputArea" type="text" name="city" placeholder="Write a city you want to know his weather. Example: Zurich" value="">
+        <button type="button" name="button" id="searchBTN" class="btn btn-default col-sm-2">Search</button>
 
       </div>
-
-      </div>
-
-      <div class="row  ">
-        <div class="col-sm-3 col-sm-offset-3"></div>
-        <div class="col-sm-3 results">
-          <h5 id="city">Prishtina</h5>
-          <br>
-          <p class="temp"><b>Temperature:</b> 1</p>
-
-          <a id="celcius" class="tempSwitch active" href="#">°C</a>
-          <p class="temp ">|</p>
-          <a id="farenheid" class="tempSwitch " href="#">°F</a>
-
-          <p id="wind"><b>Wind:</b> 32 km/h</p>
-          <p id="wind"><b>Humidity:</b> 20%</p>
-        </div>
-
-        <div class="col-sm-3 results icon">
-            <img class="icon"src="img/weather/2.png" alt="Icon">
-        </div>
-      </div>
-
 
     </div>
+
+    <div class="row ">
+      <div class="col-sm-3  col-sm-offset-3">
+
+      </div>
+      <div class="col results col-sm-3">
+        <div class="row">
+          <h5 id="city">?</h5>
+
+          </div>
+
+        <br>
+
+        <div class="row">
+
+          <p class="temp">Temp: <b id="tempVal"> ?</b> </p>
+          <div>
+            <a id="celcius" class="tempSwitch active" href="#">°C</a>
+            <p class="temp ">|</p>
+            <a id="farenheid" class="tempSwitch " href="#">°F</a>
+          </div>
+        </div>
+        <div class="row"><p >Wind: <b id="wind">?</b></p></div>
+        <div class="row"><p >Humidity: <b id="humidity">?</b></p></div>
+
+
+      </div>
+
+      <div class="col col-sm-3 results2">
+        <img class="icon img-responsive" src="https://gxqlna.am.files.1drv.com/y4mZm7rfDvatvV4-CkHm2CtMdSuNbspXM4yMjpsglvi4s4PnRQAdCxS60PP0wSNXg0Ds9t_SmwhSNY7wqAtUN4_MwOA1koNveKYJ3KLwrK4qb9nloBQREG4B0crpQBWonS1_3qq9U0J29XMrGLkHe8gWyR2EkeOjnWmD8t5Aw_DsylvKk-_S-62IbTsl4f-e4w29bK78TZrqVn4Wq_34vDNyA/2.png"
+          alt="Icon">
+        <p style="text-align:center;" id="description"><b>?</b></p>
+      </div>
+    </div>
+
+  </div>
+
   </div>
 
   <!-- Optional JavaScript -->
