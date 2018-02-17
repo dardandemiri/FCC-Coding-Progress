@@ -4,8 +4,8 @@ body {
 
 body {
   background-image: url("https://gxqmna.am.files.1drv.com/y4mzIcwPTm49bupBJ541gDKVrZg-jgsubhIWGfO673dvd5Elfuf7fwJ6462f05yZg2aoiXk_dyTP7hvSA4-fzA5RxRNSy6QNp0JACFKYkZxSmqBTLrNexbvqBDgKZ8HLZdAdrV4j8d4AzEMHr1XjanQZ_8Hze-Ia4Od1zKJQa0U7WmUppv8SYFpP8FddRvbvWs5pAxk8YK8SCnp58mM3quo8Q/5.jpg");
-  background-size: cover;
-  height:100vh;
+  background-size: cover ;
+  height:100%;
   background-repeat: no-repeat;
 }
 .icon-square {
