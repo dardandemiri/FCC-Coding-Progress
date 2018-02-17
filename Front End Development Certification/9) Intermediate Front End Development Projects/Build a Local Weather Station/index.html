@@ -16,6 +16,8 @@
 </head>
 
 
+
+
 <body>
   <div class="header container-fluid">
     <div class="container">
@@ -42,10 +44,20 @@
 
       <div class="row searchArea">
         <div class="col-sm-2 col-sm-2-offset"> </div>
-        <input id="searchIn" class="col-sm-6 inputArea" type="text" name="city" placeholder="Write a city you want to know his weather. Example: Zurich" value="">
+        <input id="searchIn" class="col-sm-6 inputArea" type="text" name="city" placeholder="Example: Zurich" value="">
         <button type="button" name="button" id="searchBTN" class="btn btn-default col-sm-2">Search</button>
 
       </div>
+
+      <div class="row alert-area ">
+        <div class="col-sm-2 col-sm-2-offset"> </div>
+        <div class="alert alert-danger col-sm-8" role="alert">
+         <p class="text-center">Please enter a valid city</p>
+      </div>
+
+      </div>
+
+
 
     </div>
 
@@ -55,7 +67,7 @@
       </div>
       <div class="col results col-sm-3">
         <div class="row">
-          <h5 id="city">?</h5>
+          <h5 id="city"></h5>
 
           </div>
 
@@ -63,23 +75,23 @@
 
         <div class="row">
 
-          <p class="temp">Temp: <b id="tempVal"> ?</b> </p>
+          <p class="temp">Temp: <b id="tempVal"> </b> </p>
           <div>
             <a id="celcius" class="tempSwitch active" href="#">°C</a>
             <p class="temp ">|</p>
             <a id="farenheid" class="tempSwitch " href="#">°F</a>
           </div>
         </div>
-        <div class="row"><p >Wind: <b id="wind">?</b></p></div>
-        <div class="row"><p >Humidity: <b id="humidity">?</b></p></div>
+        <div class="row"><p >Wind: <b id="wind"></b></p></div>
+        <div class="row"><p >Humidity: <b id="humidity"></b></p></div>
 
 
       </div>
 
       <div class="col col-sm-3 results2">
-        <img class="icon img-responsive" src="https://gxqlna.am.files.1drv.com/y4mZm7rfDvatvV4-CkHm2CtMdSuNbspXM4yMjpsglvi4s4PnRQAdCxS60PP0wSNXg0Ds9t_SmwhSNY7wqAtUN4_MwOA1koNveKYJ3KLwrK4qb9nloBQREG4B0crpQBWonS1_3qq9U0J29XMrGLkHe8gWyR2EkeOjnWmD8t5Aw_DsylvKk-_S-62IbTsl4f-e4w29bK78TZrqVn4Wq_34vDNyA/2.png"
+        <img id="weather-icon" class="icon " style="width:128px" src="img/weather/01d.png"
           alt="Icon">
-        <p style="text-align:center;" id="description"><b>?</b></p>
+        <p style="text-align:center;" id="description"><b></b></p>
       </div>
     </div>
 
