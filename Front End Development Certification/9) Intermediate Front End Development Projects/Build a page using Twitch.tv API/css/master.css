@@ -1,0 +1,32 @@
+/* When a user is online */
+
+.user-on {
+  border-left: 5px solid #28a745;
+}
+
+.status-on {
+  color: #28a745;
+}
+
+/* When a user is offline */
+
+.user-off {
+  border-left: 5px solid #6c757d;
+}
+
+.status-off {
+  color: rgb(63, 63, 63);
+}
+
+.userIMG {
+  height: 80px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.item:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
