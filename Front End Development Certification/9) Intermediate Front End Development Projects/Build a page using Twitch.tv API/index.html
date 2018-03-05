@@ -7,8 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/master.css">
   <title>Dardan Demiri's Twitch.tv API</title>
 
@@ -16,11 +20,111 @@
 
 <body>
 
+  <div class="container">
+    <div class="row justify-content-center text-center mt-5 mb-3">
+      <div>
+        <h5 class="mb-0">THE TWITCH STREAMERS</h5>
+        <p>Here you can see all your selected chanels</p>
+      </div>
+    </div>
+
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-lg-6   ">
+
+        <div class="row align-items-center mt-2 justify-content-center">
+
+          <div class="col p-0">
+            <button type="button" style="width:100%" class="btn btn-success p-3">Online</button>
+          </div>
+
+          <div class="col p-0">
+            <button type="button" style="width:100%" class="btn btn-secondary p-3">Offline</button>
+          </div>
+
+          <div class="col p-0">
+            <button type="button" style="width:100%" class="btn btn-primary p-3">All</button>
+          </div>
+
+
+
+        </div>
+
+        <div class="row">
+          <div class="input-group col mt-2 mb-2">
+            <input class="form-control" type="text">
+            <div class="input-group-append">
+              <button class="btn btn-primary pl-5 pr-5">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <div class="row align-items-center justify-content-center">
+      <div class="col-12 col-lg-6   ">
+        <!-- A user starts here -->
+        <div class="row text-left pb-1 pt-1 item">
+          <div class="col-2 d-none d-sm-block ">
+            <img class="userIMG p-2" src="img/fcc.png" alt="">
+          </div>
+          <div class="col-9 user-on pl-4">
+            <div class="row align-items-center">
+              <h4 class="m-0 mt-1">
+                Dardan Demiri
+              </h4>
+            </div>
+            <div class="row">
+              <p class="mb-1">Streaming for JavaScript Videos</p>
+            </div>
+          </div>
+          <div class="col-1 pt-3 pl-0">
+            <i class="fas fa-user animated pulse infinite status-on"></i>
+          </div>
+        </div>
+        <!-- A user ends here -->
+
+        <!-- A user starts here -->
+        <div class="row text-left pb-1 pt-1 item">
+          <div class="col-2 d-none d-sm-block ">
+            <img class=" userIMG p-2" src="img/fcc.png" alt="">
+          </div>
+          <div class="col-9 user-off pl-4">
+            <div class="row align-items-center">
+              <h4 class="m-0 mt-1">
+                Dardan Demiri
+              </h4>
+            </div>
+            <div class="row">
+              <p class="mb-1">Streaming for JavaScript Videos</p>
+            </div>
+          </div>
+          <div class="col-1 pt-3 pl-0">
+            <i class="far fa-user status-off"></i>
+          </div>
+        </div>
+
+        <!-- A user ends here -->
+      </div>
+    </div>
+  </div>
+
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!-- Optional JavaScript -->
   <script src="js/script.js" charset="utf-8"></script>
