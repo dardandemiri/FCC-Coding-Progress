@@ -1,20 +1,20 @@
 /* When a user is online */
 
-.user-on {
+.online {
   border-left: 5px solid #28a745;
 }
 
-.status-on {
+.status-online {
   color: #28a745;
 }
 
 /* When a user is offline */
 
-.user-off {
+.offline {
   border-left: 5px solid #6c757d;
 }
 
-.status-off {
+.status-offline {
   color: rgb(63, 63, 63);
 }
 
@@ -23,10 +23,20 @@
 }
 
 .btn {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .item:hover {
   background-color: rgb(245, 245, 245);
   cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(63, 63, 63) !important;
+}
+
+.show {
+  background-color: red;
+  display: block !important;
 }
