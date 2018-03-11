@@ -42,7 +42,7 @@
           </div>
 
           <div class="col p-0">
-            <button type="button" style="width:100%" class="btn btn-primary p-3">All</button>
+            <button type="button" style="width:100%" class="btn btn-primary all p-3">All</button>
           </div>
 
 
@@ -51,9 +51,9 @@
 
         <div class="row">
           <div class="input-group col mt-2 mb-2">
-            <input class="form-control" type="text">
+            <input id="searchInput" class="form-control" type="text">
             <div class="input-group-append">
-              <button class="btn btn-primary pl-5 pr-5">
+              <button class="btn btn-primary searchBtn pl-5 pr-5">
                 <i class="fas fa-search"></i>
               </button>
             </div>
@@ -70,49 +70,8 @@
 
 
     <div class="row align-items-center justify-content-center">
-      <div class="col-12 col-lg-6   ">
-        <!-- A user starts here -->
-        <div class="row text-left pb-1 pt-1 item">
-          <div class="col-2 d-none d-sm-block ">
-            <img class="userIMG p-2" src="img/fcc.png" alt="">
-          </div>
-          <div class="col-9 user-on pl-4">
-            <div class="row align-items-center">
-              <h4 class="m-0 mt-1">
-                Dardan Demiri
-              </h4>
-            </div>
-            <div class="row">
-              <p class="mb-1">Streaming for JavaScript Videos</p>
-            </div>
-          </div>
-          <div class="col-1 pt-3 pl-0">
-            <i class="fas fa-user animated pulse infinite status-on"></i>
-          </div>
-        </div>
-        <!-- A user ends here -->
-
-        <!-- A user starts here -->
-        <div class="row text-left pb-1 pt-1 item">
-          <div class="col-2 d-none d-sm-block ">
-            <img class=" userIMG p-2" src="img/fcc.png" alt="">
-          </div>
-          <div class="col-9 user-off pl-4">
-            <div class="row align-items-center">
-              <h4 class="m-0 mt-1">
-                Dardan Demiri
-              </h4>
-            </div>
-            <div class="row">
-              <p class="mb-1">Streaming for JavaScript Videos</p>
-            </div>
-          </div>
-          <div class="col-1 pt-3 pl-0">
-            <i class="far fa-user status-off"></i>
-          </div>
-        </div>
-
-        <!-- A user ends here -->
+      <div id="allResult" class="col-12 col-lg-6   ">
+        <!--         add user -->
       </div>
     </div>
   </div>
